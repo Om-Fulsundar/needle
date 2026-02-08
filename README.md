@@ -54,7 +54,7 @@ needle/
 
 **Clone the repository** :
 ```
-git clone https://github.com/Om-Fulsundar/needle
+git clone https://github.com/Om-Fulsundar/needle.git
 
 cd needle
 ```
