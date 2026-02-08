@@ -1,0 +1,50 @@
+=== PDF Malware Analysis Report ===
+
+>> Metadata
+metadata:
+    {'/Author': 'anonymous', '/CreationDate': "D:20250820120951+02'00'", '/Creator': 'ReportLab PDF Library - www.reportlab.com', '/Keywords': '', '/ModDate': "D:20250820120951+02'00'", '/Producer': 'ReportLab PDF Library - www.reportlab.com', '/Subject': 'unspecified', '/Title': 'untitled', '/Trapped': '/False'}
+
+anomalies:
+    ['CreationDate == ModDate (suspicious)', 'Suspicious /Creator value: ReportLab PDF Library - www.reportlab.com', 'Suspicious /Producer value: ReportLab PDF Library - www.reportlab.com']
+
+>> Metadata Anomalies
+- Metadata anomaly: CreationDate == ModDate (suspicious)
+- Metadata anomaly: Suspicious /Creator value: ReportLab PDF Library - www.reportlab.com
+- Metadata anomaly: Suspicious /Producer value: ReportLab PDF Library - www.reportlab.com
+
+>> Embedded Objects
+Total objects: 0
+
+>> Suspicious Keywords
+Total keywords: 0
+
+>> Embedded Payloads
+Total payloads: 0
+
+>> Indicators of Compromise (IOCs)
+Total IOCs: 51
+Domains:
+- www.reportlab.com
+File_paths:
+- /Text
+- /Subtype
+- /ImageC
+- /ImageI
+- /MediaBox
+- /Subject
+- /Type
+- /Title
+- /WinAnsiEncoding
+- /Page
+
+>> Risk Assessment
+Risk Score: 100
+Severity Level: Critical
+Reasons:
+- Metadata anomaly: CreationDate == ModDate (suspicious)
+- Metadata anomaly: Suspicious /Creator value: ReportLab PDF Library - www.reportlab.com
+- Metadata anomaly: Suspicious /Producer value: ReportLab PDF Library - www.reportlab.com
+- domains found: www.reportlab.com
+- file_paths found: /Text, /Subtype, /ImageC, /ImageI, /MediaBox, /Subject, /Type, /Title, /WinAnsiEncoding, /Page, /Helvetica, /Size, /F1, /PageMode, /Producer, /ASCII85Decode, /Font, //www.reportlab.com, /Parent, /Author, /Trapped, /CreationDate, /Creator, /Root, /Trans, /BaseFont, /Resources, //www.reportlab.com), /UseNone, /Encoding, /PDF, /Name, /Catalog, /Rotate, /False, /Filter, /FlateDecode, /Keywords, /ModDate, /ImageB, /Contents, /ProcSet, /Pages, /Kids, /Info, /Count, /Type1, /Length, /ID
+
+=== End of Report ===

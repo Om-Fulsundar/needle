@@ -1,0 +1,54 @@
+=== PDF Malware Analysis Report ===
+
+>> Metadata
+metadata:
+    {'/Producer': 'pypdf'}
+
+anomalies:
+    ['Missing or empty Author field']
+
+>> Metadata Anomalies
+- Metadata anomaly: Missing or empty Author field
+
+>> Embedded Objects
+Total objects: 0
+
+>> Suspicious Keywords
+Total keywords: 0
+
+>> Embedded Payloads
+Total payloads: 4
+Payload snippets:
+- /EmbeddedFile...
+- /EmbeddedFile...
+- /EmbeddedFile...
+- /EmbeddedFile...
+
+>> Indicators of Compromise (IOCs)
+Total IOCs: 43
+File_paths:
+- /BaseFont
+- /Names
+- /Trans
+- /Filespec
+- /Rotate
+- /MediaBox
+- /Root
+- /Subtype
+- /EmbeddedFiles
+- /FlateDecode
+
+>> Risk Assessment
+Risk Score: 100
+Severity Level: Critical
+Reasons:
+- Metadata anomaly: Missing or empty Author field
+- Keyword /EmbeddedFile detected 4 times
+- Keyword /Names detected 2 times
+- Payload type EmbeddedFile extracted
+- Payload type EmbeddedFile extracted
+- Payload type EmbeddedFile extracted
+- Payload type EmbeddedFile extracted
+- file_paths found: /BaseFont, /Names, /Trans, /Filespec, /Rotate, /MediaBox, /Root, /Subtype, /EmbeddedFiles, /FlateDecode, /Pages, /ImageB, /Producer, /Size, /Helvetica, /ASCII85Decode, /Kids, /Length, /Text, /Font, /Parent, /Count, /Page, /F, /EmbeddedFile, /Type, /Filter, /EF, /bin/sh, /Type1, /ImageC, /ImageI, /Info, /F1, /Name, /PDF, /Encoding, /Catalog, /Resources, /WinAnsiEncoding, /ProcSet, /Contents
+
+=== End of Report ===
